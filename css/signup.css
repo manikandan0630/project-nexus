@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: url("https://wallpaperbat.com/img/76681-software-developer-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signup{
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 120px;
+    border:2px solid #fff;
+    border-radius: 16px;
+    background:  rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(5px); 
+}
+.signup form input{
+    width: 150%;
+    padding: 22px 30px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+  
+}
+
+.signup form button{
+    padding: 12px 35px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin-top: -40px;
+}
+.signup form i{
+    font-size: 20px;
+    position: relative;
+    top: -70px;
+    left: 137px;
+}
